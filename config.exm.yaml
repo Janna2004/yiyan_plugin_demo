@@ -1,0 +1,9 @@
+secret_key: "your-secret-key-here"
+debug: true  # 生产环境中应设置为 false
+database:
+  engine: "django.db.backends.mysql"
+  name: "your-database-name"
+  user: "your-database-user"
+  password: "your-database-password"
+  host: "localhost"
+  port: "3306"
